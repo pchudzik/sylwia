@@ -13,7 +13,7 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/portfolio', {
+      .when('/portfolio/:project?', {
         templateUrl: 'views/portfolio.html',
         controller: 'PortfolioCtrl'
       })
