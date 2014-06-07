@@ -1,0 +1,13 @@
+{
+	"contact": {
+		"phoneAreaCode": "+48",
+		"phone": "500 400 300",
+		"email": "admin@example.com"
+	},
+	"address": {
+		"zipCode": "05-300",
+		"city": "Mińsk Mazowiecki",
+		"street": "dr Jana Huberta",
+		"houseNo": 223
+	}
+}
