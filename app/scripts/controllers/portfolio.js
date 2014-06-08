@@ -15,9 +15,10 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 	$scope.showProject = function(project) {
 		$scope.mainProject = project;
 		$('#single-project').modal('show');
-	}
+	};
+
 	$scope.hideProject = function() {
 		$scope.mainProject = null;
-		$('#single-project').modal('hide')
-	}
+		$('#single-project').modal('hide');
+	};
 });

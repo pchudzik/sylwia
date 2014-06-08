@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('sylwia').controller('AboutCtrl', function ($scope) {});
+angular.module('sylwia').controller('AboutCtrl', function () {});

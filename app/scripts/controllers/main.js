@@ -3,7 +3,7 @@
 angular.module('sylwia').controller('MainCtrl', function ($scope, addressService, mainInfoService) {
 	addressService.success(function(data) {
 		$scope.contact = data.contact;
-		$scope.address = data.address
+		$scope.address = data.address;
 	});
 
 	mainInfoService.success(function(data) {
