@@ -15,7 +15,8 @@ angular
       })
       .when('/portfolio/:project?', {
         templateUrl: 'views/portfolio.html',
-        controller: 'PortfolioCtrl'
+        controller: 'PortfolioCtrl',
+        reloadOnSearch: false
       })
       .when('/about', {
         templateUrl: 'views/about.html',

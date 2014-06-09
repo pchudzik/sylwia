@@ -84,3 +84,7 @@ body {
   margin-top: 40px; /* negative value of footer height */
   clear:both;
 }
+
+.modal-dialog {
+  width: 800px;
+}
