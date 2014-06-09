@@ -3,7 +3,7 @@
 	"projects": [
 		{
 			"image": {
-				"url": "http://placehold.it/350x140",
+				"url": "http://placehold.it/450x140",
 				"alt": "project 1 alt text",
 				"position": "right"
 			},
