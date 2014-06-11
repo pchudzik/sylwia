@@ -23,7 +23,7 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 		$scope.$apply($location.path($location.path().replace('/' + $routeParams.project, '')));
 	};
 
-	$('#single-project').on('hide.bs.modal', function(e) {
-		$scope.hideProject()
+	$('#single-project').on('hide.bs.modal', function() {
+		$scope.hideProject();
 	});
 });
