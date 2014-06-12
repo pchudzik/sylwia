@@ -5,9 +5,16 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 		$scope.intro = data.intro;
 		$scope.projects = data.projects;
 
-		
+		var projectsByUrl = _.indexBy($scope.projects, 'url');
+
 		if($routeParams.project) {
-			$scope.showProject($scope.projects[0]);
+			var selectedProject = projectsByUrl[$routeParams.project];
+			if(!selectedProject) {
+				$location.url('/portfolio');
+				$scope.$apply();
+			} else {
+				$scope.showProject(selectedProject);
+			}
 		}
 	});
 
