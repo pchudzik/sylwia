@@ -30,7 +30,10 @@
     <div class="container clearfix" ng-view="" style="margin-top: 60px"></div>
 
 
-    <div class="navbar-fixed-bottom" id="small-map"></div>
+    <!-- <div data-ng-show="{active: activeTab() !== 'contact'}" -->
+        <!-- class="navbar-fixed-bottom" -->
+        <!-- id="small-map"></div> -->
+    <div data-ng-include="'views/map.html'"></div>
     <!-- build:js scripts/ie8.js -->
     <!--[if lt IE 9]>clear-fix
     <script src="bower_components/es5-shim/es5-shim.js"></script>
@@ -56,12 +59,12 @@
     <!-- endbuild -->
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="scripts/maps.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
     <script src="scripts/controllers/portfolio.js"></script>
     <script src="scripts/controllers/menu.js"></script>
+    <script src="scripts/controllers/map.js"></script>
 
     <script src="scripts/directives/projectDirective.js"></script>
     <script src="scripts/directives/projectImage.js"></script>
