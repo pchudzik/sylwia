@@ -1,0 +1,39 @@
+{
+	"intro": "Zobacz niektóre z naszych <b>projektów</b>",
+	"projects": [
+		{
+			"image": {
+				"url": "http://placehold.it/450x140",
+				"alt": "project 1 alt text",
+				"position": "right"
+			},
+			"url": "project1",
+			"isNew": true,
+			"title": "Project 21",
+			"shortDescription": "Short: <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Suspendisse egestas aliquam adipiscing. Donec id dignissim tellus, sit amet gravida libero. Nam vitae massa ut massa tristique pretium. Vestibulum rutrum ultricies tellus.",
+			"fullDescriptionHtml": "resources/projects/project1.html"
+		},{
+			"image": {
+				"url": "http://placehold.it/450x140",
+				"alt": "project 1 alt text",
+				"position": "left"
+			},
+			"url": "project2",
+			"isNew": true,
+			"title": "Project 22",
+			"shortDescription": "Short: <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Suspendisse egestas aliquam adipiscing. Donec id dignissim tellus, sit amet gravida libero. Nam vitae massa ut massa tristique pretium. Vestibulum rutrum ultricies tellus.",
+			"fullDescriptionHtml": "resources/projects/project2.html"
+		},{
+			"image": {
+				"url": "http://placehold.it/450x140",
+				"alt": "project 1 alt text",
+				"position": "right"
+			},
+			"url": "project3",
+			"isNew": false,
+			"title": "Project 23",
+			"shortDescription": "Short: <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Suspendisse egestas aliquam adipiscing. Donec id dignissim tellus, sit amet gravida libero. Nam vitae massa ut massa tristique pretium. Vestibulum rutrum ultricies tellus.",
+			"fullDescriptionHtml": "resources/projects/project3.html"
+		}
+	]
+}
