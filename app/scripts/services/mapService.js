@@ -71,11 +71,9 @@ angular.module('sylwia').service('mapService', function (addressService, $q) {
 			icon: 'images/marker.png'
 		});
 	};
-	
+
 	return function() {
 		var deffered = $q.defer();
-		var lat = -1;
-		var lng = -1;
 		addressService.success(function(data) {
 			deffered.resolve(_.partial(drawMap, data.address.latitude, data.address.longitude));
 		});

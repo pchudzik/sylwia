@@ -19,7 +19,8 @@
   "smarttabs": true,
   "globals": {
     "angular": false,
-	"google": false,
-	"$": false
+	   "google": false,
+	   "$": false,
+     "_": false
   }
 }
