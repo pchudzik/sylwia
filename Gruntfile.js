@@ -25,6 +25,10 @@ module.exports = function (grunt) {
       dist: 'dist'
     },
 
+    buildGhPages: {
+      ghPages: { },
+    },
+
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -396,5 +400,10 @@ module.exports = function (grunt) {
     'newer:jshint',
     //'test',
     'build'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'default',
+    'buildGhPages'
   ]);
 };
