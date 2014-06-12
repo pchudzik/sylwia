@@ -190,7 +190,7 @@ module.exports = function (grunt) {
     // Performs rewrites based on rev and the useminPrepare configuration
     usemin: {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
-      css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
+      css: ['<%= yeoman.dist %>/styles/main.css'],
       options: {
         assetsDirs: ['<%= yeoman.dist %>']
       }
@@ -199,7 +199,8 @@ module.exports = function (grunt) {
     // The following *-min tasks produce minified files in the dist folder
     cssmin: {
       options: {
-        root: '<%= yeoman.app %>'
+        root: '',
+         assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/fonts']
       }
     },
 
@@ -277,7 +278,7 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'resources/{,*/}*.json',
+            'resources/{,*/}*.*',
             'fonts/*'
           ]
         }, {
