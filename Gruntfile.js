@@ -25,8 +25,15 @@ module.exports = function (grunt) {
       dist: 'dist'
     },
 
-    buildGhPages: {
-      ghPages: { },
+    githubPages: {
+      dist: {
+        options: {
+          // The default commit message for the gh-pages branch
+          commitMessage: 'push'
+        },
+        // The folder where your gh-pages repo is
+        src: 'dist'
+      }
     },
 
     // Watches files for changes and runs tasks based on the changed files
@@ -404,6 +411,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('deploy', [
     'default',
-    'buildGhPages'
+    'githubPages:dist'
   ]);
 };
