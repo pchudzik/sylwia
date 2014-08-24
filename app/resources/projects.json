@@ -3,8 +3,8 @@
 	"projects": [
 		{
 			"image": {
-				"url": "http://placehold.it/450x140",
-				"alt": "project 1 alt text",
+				"url": "/resources/projects/project1.main.min.png",
+				"alt": "Piotrków Trybunalski - budynek wielokondygnacyjny",
 				"position": "right"
 			},
 			"url": "project1",

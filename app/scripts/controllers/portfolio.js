@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routeParams, $location, projectsService) {
+angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routeParams, $location, projectsService, $http) {
 	projectsService.getProjects.success(function(data) {
 		$scope.intro = data.intro;
 		$scope.projects = data.projects;
@@ -24,6 +24,8 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 			$scope.mainProjectHtml = data;
 		});
 		$('#single-project').modal('show');
+		$('.carousel').carousel();
+		console.log($('.carousel').html());
 	};
 
 	$scope.hideProject = function() {
@@ -33,4 +35,21 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 	$('#single-project').on('hide.bs.modal', function() {
 		$scope.hideProject();
 	});
+
+	var slider = $('#slider');
+	slider.carousel();
+	$scope.nextSliderItem = function() {
+		slider.carousel('next');
+	};
+
+	$scope.prevSliderItem = function() {
+		slider.carousel('prev');
+	};
+
+	$http.get('resources/portfolioSlider.json')
+		.then(function(data) {
+			$scope.sliderItems = data.data;
+		}, function(error) {
+			console.log(error);
+		});
 });

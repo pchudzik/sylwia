@@ -10,17 +10,19 @@
 		<div class="panel-body">
 		<div class="row">
 				<div data-project-image
+					data-url="project.url"
 					data-image="project.image"
 					data-position="left"></div>
 
 				<div class="col-md-6">
 					<p data-ng-bind-html="project.shortDescription"></p>
-					<a href="#portfolio/{{project.url}}" data-ng-click="showProject(project)">
+					<a href="#/portfolio/{{project.url}}" data-ng-click="showProject(project)">
 						Zobacz więcej
 					</a>
 				</div>
 
 				<div data-project-image
+					data-url="project.url"
 					data-image="project.image"
 					data-position="right"></div>
 			</div>

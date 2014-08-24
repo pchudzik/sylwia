@@ -4,6 +4,7 @@ angular.module('sylwia').directive('projectImage', function() {
 	return {
 		scope: {
 			image: '=',
+			url: '=',
 			position: '@'
 		},
 		link: function(scope) {
