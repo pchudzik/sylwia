@@ -1,0 +1,16 @@
+{
+	"contact": {
+		"phoneAreaCode": "+48",
+		"phone": "500 400 300",
+		"email": "admin@example.com"
+	},
+	"address": {
+		"zipCode": "05-300",
+		"city": "Mińsk Mazowiecki",
+		"street": "dr Jana Huberta",
+		"houseNo": 223,
+		"latitude": 52.18505,
+		"longitude": 21.589309,
+		"directions": "<b>Wskazówki dojazdu</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan tincidunt felis, sit amet condimentum felis interdum ut. Vestibulum quis diam odio. Suspendisse potenti. Fusce mollis commodo elit. Donec dictum, eros eu hendrerit condimentum, magna eros vehicula odio, id dictum nulla sem non ligula. Sed volutpat dignissim leo nec tristique. Etiam tempus enim nec rhoncus iaculis. Vivamus nunc elit, gravida ac rhoncus convallis, adipiscing at nulla. Suspendisse malesuada, augue id sollicitudin sodales, nisl dui rhoncus risus, id mattis risus est non nulla. Etiam vehicula augue mauris, sed vestibulum ipsum ultricies volutpat."
+	}
+}
