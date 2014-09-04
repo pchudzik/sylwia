@@ -1,15 +1,14 @@
 [
-	{ "img": "resources/img/1.png", "caption": "Caption1" },
-	
-	{ "img": "resources/img/3.png", "caption": "Caption3" },
-	{ "img": "resources/img/4.png", "caption": "Caption4" },
-	{ "img": "resources/img/5.png", "caption": "Caption5" },
-	{ "img": "resources/img/6.png", "caption": "Caption6" },
-	{ "img": "resources/img/7.png", "caption": "Caption7" },
-	{ "img": "resources/img/8.png", "caption": "Caption8" },
-	{ "img": "resources/img/9.png", "caption": "Caption9" },
-	{ "img": "resources/img/10.png", "caption": "Caption10" },
-	{ "img": "resources/img/11.png", "caption": "Caption11" },
-	{ "img": "resources/img/12.png", "caption": "Caption12" },
-	{ "img": "resources/img/13.png", "caption": "Caption13" }
+	{ "img": "resources/img/1.png", "caption": "Widok konstrukcji żelbetowej budynku CeNT I. Nadzór" },
+	{ "img": "resources/img/3.png", "caption": "Wyburzenie ściany nośnej - Mińsk Mazowiecki" },
+	{ "img": "resources/img/4.png", "caption": "Schody stalowe w Warszawie. Projekt" },
+	{ "img": "resources/img/5.png", "caption": "Schody stalowe na istniejącym dachu w Warszawie - projekt i nadzór" },
+	{ "img": "resources/img/6.png", "caption": "Realizacja tarczy w budynku Cent II w Warszawie. Nadzór" },
+	{ "img": "resources/img/7.png", "caption": "Realizacja konstrukcji nośnej budynku użyteczności publicznej w Warszawie. Nadzór" },
+	{ "img": "resources/img/8.png", "caption": "Ekspertyza - Mińsk Mazowiecki" },
+	{ "img": "resources/img/9.png", "caption": "Projekt zadaszenia stalowego" },
+	{ "img": "resources/img/10.png", "caption": "Projekt zadaszenia nad wejściem głównym.Iława" },
+	{ "img": "resources/img/11.png", "caption": "Nadzowanie prac na budynku CeNT II" },
+	{ "img": "resources/img/12.png", "caption": "Kładka stalowa w Warszawie - nadzór budowy." },
+	{ "img": "resources/img/13.png", "caption": "Nadbudowa piętra w Warszawie ul Czerniakowska. Projekt" }
 ]
