@@ -19,17 +19,14 @@
 
 	<div>
 		<h2>Przyjedź</h2>
-		<div id="big-map"></div>
-		<div>
-			<p>
+		<p>
 				Nasz dokładny adres:<br/>
 				<b>
 					{{address.zipCode}} {{address.city}}<br/>
 					{{address.street}} {{address.houseNo}}
 				</b>
 			</p>
-			<div data-ng-bind-html="address.directions"></div>
-		</div>
+		<div id="big-map"></div>
 	</div>
 
 	<hr/>
