@@ -1,7 +1,7 @@
 <div class="container" ng-controller="PortfolioCtrl">
   <div id="slider" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-  	  <li data-ng-repeat="item in sliderItems" data-slide-to="{{$index}}" data-ng-class="{active: $index == 0}"></li>
+  	  <li data-ng-repeat="item in sliderItems" data-ng-click="slideTo($index)" data-ng-class="{active: $index == 0}"></li>
     </ol>
 
     <div class="carousel-inner">
@@ -23,35 +23,4 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
   </div>
-
-  <br/>
-  <br/>
-
-  <div class="well well-sm">
-    <p data-ng-bind-html="intro"></p>
-  </div>
-
-  <div data-ng-repeat="project in projects">
-  	<div data-project="project"></div>
-  </div>
-
-  <div class="modal fade" id="single-project">
-	<div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header" data-dismiss="modal">
-	        <button type="button" class="close" aria-hidden="true">
-	        	&times;
-	        </button>
-	        <h4 class="modal-title">{{mainProject.title}}</h4>
-	      </div>
-	      <div class="modal-body" data-ng-bind-html="mainProjectHtml">
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">
-	        	Zamknij
-	        </button>
-	      </div>
-	    </div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
-	</div>
 </div>

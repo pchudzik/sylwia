@@ -41,6 +41,9 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 	$scope.nextSliderItem = function() {
 		slider.carousel('next');
 	};
+	$scope.slideTo = function(index) {
+		slider.carousel(index);
+	};
 
 	$scope.prevSliderItem = function() {
 		slider.carousel('prev');

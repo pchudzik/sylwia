@@ -99,3 +99,7 @@ img.gray{
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
+.carousel-control {
+  cursor: pointer;
+}
