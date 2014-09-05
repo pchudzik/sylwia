@@ -36,23 +36,5 @@ angular.module('sylwia').controller('PortfolioCtrl', function ($scope, $routePar
 		$scope.hideProject();
 	});
 
-	var slider = $('#slider');
-	slider.carousel();
-	$scope.nextSliderItem = function() {
-		slider.carousel('next');
-	};
-	$scope.slideTo = function(index) {
-		slider.carousel(index);
-	};
-
-	$scope.prevSliderItem = function() {
-		slider.carousel('prev');
-	};
-
-	$http.get('resources/portfolioSlider.json')
-		.then(function(data) {
-			$scope.sliderItems = data.data;
-		}, function(error) {
-			console.log(error);
-		});
+	$scope.imagesPromise = $http.get('resources/portfolioSlider.json');
 });

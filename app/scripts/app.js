@@ -35,6 +35,11 @@ angular
         controller: 'EligibilitiesCtrl',
         activetab: 'eligibilities'
       })
+      .when('/kitchens', {
+        templateUrl: 'views/kitchen.html',
+        controller: 'KitchenCtrl',
+        activetab: 'kitchens'
+      })
       .otherwise({
         redirectTo: '/'
       });
