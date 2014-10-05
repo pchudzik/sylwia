@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sylwia').service('mapService', function ($q) {
+angular.module('sylwia').service('mapService', function () {
 	var drawMap = function(lat, lng, elementId) {
 		var mapCanvas = document.getElementById(elementId);
 		var location = new google.maps.LatLng(lat, lng);
