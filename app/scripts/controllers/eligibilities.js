@@ -1,5 +1,9 @@
 'use strict';
 
-angular.module('sylwia').controller('EligibilitiesCtrl', function ($scope) {
-	$scope.images = [1,2,3,4,5];
+angular.module('sylwia').controller('EligibilitiesCtrl', function ($scope, $http) {
+	$http.get('resources/eligibilities.json').then(function(response) {
+		$scope.images = response.data;
+	})
+	//fixed order. + resize on hover x2
+	// $scope.images = [2,5,1,3,4];
 });

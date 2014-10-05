@@ -1,11 +1,12 @@
 [
-	{ "img": "resources/kitchen/1.jpg", "caption": "caption 1" },
-	{ "img": "resources/kitchen/2.jpg", "caption": "caption 2" },
+	{ "img": "resources/kitchen/1.jpg", "caption": "Kuchnia w stylu angielskim" },
+	{ "img": "resources/kitchen/2.jpg", "caption": "Kuchnia w stylu angielskim" },
 	{ "img": "resources/kitchen/3.jpg", "caption": "caption 3" },
 	{ "img": "resources/kitchen/4.jpg", "caption": "caption 4" },
 	{ "img": "resources/kitchen/5.jpg", "caption": "caption 5" },
 	{ "img": "resources/kitchen/6.jpg", "caption": "caption 6" },
 	{ "img": "resources/kitchen/7.jpg", "caption": "caption 7" },
 	{ "img": "resources/kitchen/8.jpg", "caption": "caption 8" },
-	{ "img": "resources/kitchen/9.jpg", "caption": "caption 9" }
+	{ "img": "resources/kitchen/9.jpg", "caption": "caption 9" },
+	{ "img": "resources/kitchen/10.jpg", "caption": "caption 10" }
 ]

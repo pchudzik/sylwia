@@ -103,3 +103,32 @@ img.gray{
 .carousel-control {
   cursor: pointer;
 }
+.carousel-caption {
+  color: white;
+  font-size: 150%;
+  font-style: bold;
+}
+
+.gallery-image, .gallery-image-big {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.gallery-image-big:hover {
+  z-index: 10;
+  -webkit-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  -o-transform:scale(2.5);
+  transform:scale(2.5);
+}
+
+.gallery-image:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -o-transform:scale(1.8);
+  transform:scale(1.8);
+}

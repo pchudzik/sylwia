@@ -1,0 +1,22 @@
+[
+	{
+		"small": "resources/eligibilities/w2_mini.png",
+		"big": "resources/eligibilities/w2.png"
+	},
+	{
+		"small": "resources/eligibilities/w5_mini.png",
+		"big": "resources/eligibilities/w5.png"
+	},
+	{
+		"small": "resources/eligibilities/w1_mini.png",
+		"big": "resources/eligibilities/w1.png"
+	},
+	{
+		"small": "resources/eligibilities/w3_mini.png",
+		"big": "resources/eligibilities/w3.png"
+	},
+	{
+		"small": "resources/eligibilities/w4_mini.png",
+		"big": "resources/eligibilities/w4.png"
+	}
+]

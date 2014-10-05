@@ -22,7 +22,7 @@ angular
       })
       .when('/offer', {
         templateUrl: 'views/offer.html',
-        controller: 'OferCtrl',
+        controller: 'OfferCtrl',
         activetab: 'offer'
       })
       .when('/contact', {

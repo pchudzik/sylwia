@@ -1,6 +1,6 @@
-<div class="container" ng-controller="AboutCtrl">
+<div class="container" ng-controller="OfferCtrl">
 	<h2>Oferta firmy</h2>
-	<div class="row">
+	<div class="row"  style="background-image: url('images/logo_background.png'); background-repeat: no-repeat; background-position: top right;">
 		<div class="col-md-6">
 			<b>Firma A&amp;S PROJEKT specjalizuje się w:</b>
 	        <ul>
@@ -14,4 +14,14 @@
 			<img src="/images/full_logo.png"/>
 		</div>
 	</div>
+	<div class="text-center">
+		<img data-ng-repeat="img in offerImages"
+			style="width: 120px; margin: 5px;"
+			class="gallery-image-big "
+			src="{{img.src}}">
+		<!-- powieksza sie jak sie najedzie myszka -->
+      <!-- <img src="images/img2.jpg" style=" padding-bottom: 15px;"/> -->
+      <!-- <img src="images/img1.png" style="width: 200px/boot"> -->
+      <!-- <img src="images/img1.png" /> -->
+    </div>
 </div>

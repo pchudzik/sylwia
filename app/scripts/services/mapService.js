@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sylwia').service('mapService', function (addressService, $q) {
+angular.module('sylwia').service('mapService', function ($q) {
 	var drawMap = function(lat, lng, elementId) {
 		var mapCanvas = document.getElementById(elementId);
 		var location = new google.maps.LatLng(lat, lng);
@@ -72,11 +72,5 @@ angular.module('sylwia').service('mapService', function (addressService, $q) {
 		});
 	};
 
-	return function() {
-		var deffered = $q.defer();
-		addressService.success(function(data) {
-			deffered.resolve(_.partial(drawMap, data.address.latitude, data.address.longitude));
-		});
-		return deffered.promise;
-	};
+	return _.partial(drawMap, 52.18505, 21.589309);
 });
